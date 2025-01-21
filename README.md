@@ -18,34 +18,23 @@ The **Gen AI Project** is a comprehensive application showcasing advanced Genera
    ```bash
    git clone <repository-url>
    cd Gen-AI-Project
-Set Up Virtual Environment:
-
-bash
-Copy
-Edit
+2. Set Up Virtual Environment:
+   
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install Dependencies:
 
-bash
-Copy
-Edit
+3. Install Dependencies:
 pip install -r requirements.txt
-Run Streamlit App: Navigate to the streamlit directory and start the Streamlit server:
 
-bash
-Copy
-Edit
+4. Run Streamlit App: Navigate to the streamlit directory and start the Streamlit server:
 cd streamlit
 streamlit run app.py
-Run Django Backend: Navigate to the django directory and start the Django development server:
 
-bash
-Copy
-Edit
+5. Run Django Backend: Navigate to the django directory and start the Django development server:
 cd django
 python manage.py runserver
-Access the Application:
+
+6. Access the Application:
 
 Streamlit UI: http://localhost:8501
 Django Admin Panel: http://localhost:8000/admin
